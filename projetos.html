@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>CONHEÇA SUA HISTORIA</title>
-  <link rel="stylesheet" type="text/css" href="Estilo.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="Estilo.css">  
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:block;}
+</style>
 
 </head>
 <body>
@@ -20,6 +20,111 @@
   <li><a class="activ" href="contatos.html">CONTATO</a></li>
 </ul>
 
+<div class="w3-container">
+    <h2 class="fotosf">Arquivos - desenhos e textos</h2>
+  </div>
+  <div class="fts">
+  <div class="w3-content w3-display-container">
+  
+  <div class="w3-display-container mySlides" style="display: block">
+    <img  src="imag/projetos/1.jpg" style="width: 100%">
+  </div>
+  
+  <div class="w3-display-container mySlides" style="display: block">
+      <img  src="imag/projetos/2.jpg" style="width: 100%">
+    </div>
+  
+  <div class="w3-display-container mySlides" style="display: block">
+        <img  src="imag/projetos/3.jpg" style="width: 100%">
+    </div>
+    
+  <div class="w3-display-container mySlides" style="display: block">
+      <img  src="imag/projetos/4.jpg" style="width: 100%">
+    </div>
+    
+  <div class="w3-display-container mySlides" style="display: block">
+      <img  src="imag/projetos/5.jpg" style="width: 100%">
+    </div>
+   
+  <div class="w3-display-container mySlides" style="display: block">
+      <img  src="imag/projetos/6.jpg" style="width: 100%">
+    </div>
+  
+  <div class="w3-display-container mySlides" style="display: block">
+        <img  src="imag/projetos/7.jpg" style="width: 100%">
+    </div>
+  
+  <div class="w3-display-container mySlides" style="display: block">
+          <img  src="imag/projetos/8.jpg" style="width: 100%">
+    </div>
+  
+  <div class="w3-display-container mySlides" style="display: block">
+            <img  src="imag/projetos/9.jpg" style="width: 100%">
+    </div>
+  
+  <div class="w3-display-container mySlides" style="display: block">
+              <img  src="imag/projetos/10.jpg" style="width: 100%">
+    </div>
 
+  <div class="w3-display-container mySlides" style="display: block">
+        <img  src="imag/projetos/11.jpg" style="width: 100%">
+    </div>
+  
+  <div class="w3-display-container mySlides" style="display: block">
+    <img  src="imag/projetos/12.jpg" style="width: 100%">
+    </div>
+  
+  
+  <div class="w3-display-container mySlides" style="display: block">
+      <img  src="imag/projetos/13.jpg" style="width: 100%">
+    </div>
+  
+  <div class="w3-display-container mySlides" style="display: block">
+        <img  src="imag/projetos/14.jpg" style="width: 100%">
+    </div>
+        
+  
+  <div class="w3-display-container mySlides" style="display: block">
+        <img  src="imag/projetos/15.jpg" style="width: 100%">
+    </div>
+      
+
+  <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+  </div>
+  </div>
+  
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+  
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+  
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+  }
+  </script>
+
+
+
+
+
+<div class="soci"><a href="https://www.instagram.com/antonio_aurelio_/?hl=pt-br"><img  class="social"src="imag/icons/instagram.jpg" alt=""></a><a href="https://www.facebook.com/aurelio.1995"><img  class="social"src="imag/icons/facebook.jpg" alt=""></a><a href="https://www.linkedin.com/in/antonio-aurelio-164727104/"><img  class="social"src="imag/icons/linkedin.jpg" alt=""></a></div>
+
+
+<div class="baixo"><div style="padding: 2px; width:2000px;"></div></div>
 </body>
 </html>
+
+
+
+

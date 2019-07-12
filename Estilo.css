@@ -43,3 +43,31 @@ li a:hover {
   margin-right: auto;
 
   }
+
+  div.baixo{
+    list-style-type:none;
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    overflow:hidden;
+    background-color: rgb(42, 99, 173);
+    margin: -4px !important;
+  }
+
+  img.social{
+height: 35px;
+width: 35px;
+position:relative;
+bottom: 0;
+right: 0;
+margin: 5px;
+  }
+
+div.soci{
+  float: left;
+  margin: 20px;
+  position: fixed;
+  bottom:0;
+  right: 0;
+}
