@@ -44,6 +44,7 @@ li a:hover {
 }
 
   img.slide{border-radius: 10px;
+    border: 3px solid;
   }
 
 
@@ -94,6 +95,55 @@ position: relative;
 margin-top: 10px;
 margin-left: 80px;
 border-radius: 10px;
-border-width: 20px;
-border-color: black;
+border:3px solid;
 }
+
+div.formulary{
+border:2px solid rgb(110, 110, 110);
+margin-top: 10px;
+margin-left: 370px;
+border:1px solid;
+background-color:rgb(201, 201, 201);
+width:600px;
+height:360px;
+float:left;
+border-radius:10px;
+}
+input[type=submit] {
+  background-color: rgb(42, 99, 173);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 220px;
+}
+
+input[type=reset] {
+  background-color: rgb(42, 99, 173);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=text], select {
+  width: 70%;
+  padding: 12px 0px;
+  margin-left:30px;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid rgb(87, 87, 87);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+p.form{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(73, 73, 73);
+  margin-top: 10px;
+}
+
