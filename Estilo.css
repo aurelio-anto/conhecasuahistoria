@@ -147,3 +147,26 @@ p.form{
   margin-top: 10px;
 }
 
+  div.inicio{
+      width: 650px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: left;
+      margin-left: 100px;
+      float: left;
+      }
+  
+      
+div.ftsinicio{
+  width: 100px;
+  float: right;
+  margin-top: 30px;
+  }
+  
+  img.ftsinicio{
+  width: 250% !important;
+  position: relative;
+  margin-top: 40px;
+  margin-left: -350px;
+  border-radius: 10px;
+  border:3px solid;
+  }
